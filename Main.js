@@ -1,5 +1,5 @@
 //시간 
-var Time = 3601;  
+var Time = 3600;  
 var Min = ""; 
 var Sec = ""; 
 
