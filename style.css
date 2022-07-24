@@ -27,5 +27,9 @@
     width : 79%; 
     height : 400px; 
     background-color : darkgrey;
-    font-size : 50px;
+    font-size : 50px;  
+} 
+
+.btn{
+    font-size: 50px;
 }
