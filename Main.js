@@ -2,16 +2,17 @@
 var Time = 3600;  
 var Min = ""; 
 var Sec = ""; 
+var count = 0; // 뽀모도로 횟수 
 
 var x = setInterval(function(){ 
     Min = parseInt(Time/60);  
     Sec = Time % 60;  
 
-    document.getElementsByClassName("btn")[0].innerHTML = Min + "분" + Sec + "초";  
+    document.getElementsByClassName("btn")[0].innerHTML = Min + "분" + Sec + "초" + "\t\t" + count + "회";  
     Time--; 
 
     if(Time < 0) {
-        clearInterval(x);
+        clearInterval(x); 
     }
 
 

@@ -1,9 +1,20 @@
+html {
+    /* height : 100%; */
+}
+
+body {
+    /* display : flex; */
+    /* min-width: 100%; */
+    /* flex-wrap : nowrap; */
+    /* justify-content:  center; */
+    background-color: #f5f5f5;
+}
 .Backgorund-Main {
     background: grey;
 } 
 
 .btn {
-    width: 79%;
+    width : 80%;
     height: 100px;  
     background-color : skyblue; 
     float : left;
@@ -12,8 +23,8 @@
 } 
 
 #btn_date {
-    width: 20%; 
-    height :100px;
+    width : 19%;
+    height :40px;
     color : blueviolet  ; 
     float : left;
     font-size : 20px;  
@@ -23,13 +34,40 @@
 }
 
 
-.important {
-    width : 79%; 
+.important-wrapper {
+    width : 80%;
     height : 400px; 
+    float: left;
     background-color : darkgrey;
-    font-size : 50px;  
 } 
 
 .btn{
     font-size: 60px;
 }
+
+.important-wrapper {
+    text-align : left;
+}
+
+.important_Work {
+    font-size : 35px;
+    margin : 20px;
+    
+}
+
+.todo-box {
+    size : 40px;
+}  
+
+.complete-all-btn { 
+    /* 첫 번째 체크박스  */
+    width : 40px; 
+    height : 30px; 
+    margin-left: 20px;
+} 
+
+.todo-input { 
+    width : 300px;
+    height : 20px;
+}
+
